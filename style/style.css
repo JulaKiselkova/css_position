@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    background: wheat;
+    position: relative;
+    margin: 5% auto 0;
+}
+
+.sque_blue {
+    background: blue;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    z-index: 2;
+}
+
+.sque_yellow {
+    background: yellow;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    border-radius: 20%;
+    z-index: 3;
+}
+
+.top_left {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.top_right {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: tomato;
+    right: 0;
+    top: 0;
+
+    position: absolute;
+}
+
+.bottom_right {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: tomato;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.bottom_left{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: tomato;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.bottom_left:hover{
+    background-color: pink;
+    z-index: 5;
+    transition: 1s;
+}
+
+.bottom_right:hover{
+    background-color: plum;
+    z-index: 5;
+    transition: 1s;
+}
+
+.top_right:hover{
+    background-color: purple;
+    z-index: 5;
+    transition: 1s;
+}
+
+.top_left:hover{
+    background-color: palevioletred;
+    z-index: 5;
+    transition: 1s;
+}
+
+.sque_yellow:hover {
+    background-color:lightskyblue;
+    transition: 1s;
+}
+
+.sque_blue:hover {
+    background-color: orange;
+    transition: 1s;
+    z-index: 5;
+}
